@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- LOGO -->
+    <div class="logo"><img src="images/logo_saylaniwelfare.22bf709605809177256c.png" alt="Saylani Logo"></div>
+    <!-- HEADING -->
+    <div class="heading">
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </div>
+    <!-- FORM -->
+    <div class="form">
+        <form>
+            <br>
+            <table class="table1" width="1300px" align="center">
+                <!-- FIRST NAME -->
+                <tr>
+                    <td class="firstname"><label for="firstname">FIRST NAME</label></td>
+                    <td class="firstnametd"><input class="firstnameinput" id="firstname" type="text" size="30"
+                            maxlength="30" placeholder="Enter the First Name">&nbsp;<span class="span1">(max 30
+                            characters a-z and A-Z)</span></td>
+                </tr>
+                <!-- LAST NAME -->
+                <tr>
+                    <td class="lastname"><label for="lastname">LAST NAME</label></td>
+                    <td class="lastnametd"><input class="lastnameinput" id="lastname" type="text" size="30"
+                            maxlength="30" placeholder="Enter the Last Name">&nbsp;<span class="span2">(max 30
+                            characters a-z and A-Z)</span></td>
+                </tr>
+                <!-- DATE OF BIRTH -->
+                <tr>
+                    <td class="dob"><label for="dob">DATE OF BIRTH</label></td>
+                    <td class="dobtd"><input id="dob" class="dobinput" type="date"></td>
+                </tr>
+                <!-- EMAIL -->
+                <tr>
+                    <td class="email"><label for="email">EMAIL ID</label></td>
+                    <td class="emailtd"><input class="emailinput" id="email" type="email" size="30"
+                            placeholder="Enter the Email Address"></td>
+                </tr>
+                <!-- MOBILE NUMBER -->
+                <tr>
+                    <td class="mn"><label for="mn">MOBILE NUMBER</label></td>
+                    <td class="mntd"><input class="mninput" id="mn" type="number" size="30"
+                            placeholder="Enter the Mobile Number">&nbsp; <span class="span3">(10 Digits Numbers)</span>
+                    </td>
+                </tr>
+                <!-- GENDER -->
+                <tr>
+                    <td class="gender"><label for="gender">GENDER</label></td>
+                    <td class="gendertd" id="gender">
+                        <span class="span4">Male<input class="genderinput" type="radio" name="gender" value="male">
+                            <span class="span4">Female<input class="genderinput" type="radio" name="gender"
+                                    value="female">
+                    </td>
+                </tr>
+                <!-- ADDRESS -->
+                <tr>
+                    <td class="address"><label for="address">ADDRESS</label></td>
+                    <td class="addresstd"><textarea class="addresstextarea" name="address" id="address" cols="42"
+                            rows="5"></textarea></td>
+                </tr>
+                <!-- CITY -->
+                <tr>
+                    <td class="city"><label for="city">CITY</label></td>
+                    <td class="citytd"><input class="cityinput" id="city" type="text" size="30" maxlength="30"
+                            placeholder="Enter the City Name">&nbsp;<span class="span5">(max 30
+                            characters a-z and A-Z)</span></td>
+                </tr>
+                <!-- PIN CODE -->
+                <tr>
+                    <td class="pc"><label for="pc">PIN CODE</label></td>
+                    <td class="pctd"><input class="pcinput" id="pc" type="number" size="30" maxlength="30"
+                            placeholder="Enter the Pin Code">&nbsp;<span class="span6">(6 Digits Numbers)</span></td>
+                </tr>
+                <!-- STATE -->
+                <tr>
+                    <td class="state"><label for="state">STATE</label></td>
+                    <td class="statetd"><input class="stateinput" id="state" type="text" size="30" maxlength="30"
+                            placeholder="Enter the State">&nbsp;<span class="span7">(max 30
+                            characters a-z and A-Z)</span></td>
+                </tr>
+                <!-- COUNTRY -->
+                <tr>
+                    <td class="country"><label for="country">COUNTRY</label></td>
+                    <td class="countrytd"><input class="countryinput" id="country" type="text" size="30" maxlength="30"
+                            placeholder="Enter the Country Name"></td>
+                </tr>
+                <!-- HOBBIES -->
+                <tr>
+                    <td class="hobbies"><label for="hobbies">HOBBIES</label></td>
+                    <td class="hobbiestd">
+                        <span class="span8">Drawing</span><input class="hobbiesinput" id="hobbies" type="checkbox"
+                            name="hobbies" value="drawing">
+                        <span class="span8">Singing</span><input class="hobbiesinput" id="hobbies" type="checkbox"
+                            name="hobbies" value="singing">
+                        <span class="span8">Dancing</span><input class="hobbiesinput" id="hobbies" type="checkbox"
+                            name="hobbies" value="dancing">
+                        <span class="span8">Sketching</span><input class="hobbiesinput" id="hobbies" type="checkbox"
+                            name="hobbies" value="sketching">
+                        <br>
+                        <span class="span8">Others</span><input class="hobbiesinput" id="hobbies" type="checkbox"
+                            name="hobbies" value="others">
+                        <input type="text" size="17">
+                    </td>
+                    <!-- QUALIFICATION     -->
+                </tr>
+            </table>
+            <br><br>
+            <table width="1340px" align="center">
+                <tr>
+                    <td>
+                        <table width="175px" height="195px" align="center">
+                            <tr>
+                                <td class="qual"><label for="qual">QUALIFICATION</label></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table align="left" width="920px" id="qual">
+                            <tr>
+                                <th class="sno1"><label for="qual">S.No</label></th>
+                                <th class="sno1"><label for="qual">Examination</label></th>
+                                <th class="sno"><label for="qual">Board</label></th>
+                                <th class="sno"><label for="qual">Percentage</label></th>
+                                <th class="sno"><label for="qual">Year of passing</label></th>
+                            </tr>
+                            <tr>
+                                <td class="sno1"><label for="qual">1</label></td>
+                                <td class="sno1"><label for="qual">Class X</label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                            </tr>
+                            <tr>
+                                <td class="sno1"><label for="qual">2</label></td>
+                                <td class="sno1"><label for="qual">Class XII</label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                            </tr>
+                            <tr>
+                                <td class="sno1"><label for="qual">3</label></td>
+                                <td class="sno1"><label for="qual">Graduation</label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                            </tr>
+                            <tr>
+                                <td class="sno1"><label for="qual">4</label></td>
+                                <td class="sno1"><label for="qual">Masters</label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                                <td class="sno"><label for="qual"><input class="qualinput" type="text" size="31"
+                                            name="qual"></label></td>
+                            </tr>
+                            <tr>
+                                <td class="sno1"><label for="qual"></label></td>
+                                <td class="sno1"><label for="qual"></label></td>
+                                <td class="sno"><label for="qual"><span>(10 char max)</span></label></td>
+                                <td class="sno"><label for="qual"><span>upto 2 decimal</span></label></td>
+                                <td class="sno"><label for="qual"></label></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- COURSES APPLIED FOR -->
+            <br>
+            <!-- CAF MAIN TABLE -->
+            <table width="580px" height="100px">
+                <tr>
+                    <td>
+                        <!-- CAF SUB TABLE 1 -->
+                        <table width="150px" height="50px" align="center">
+                            <tr>
+                                <td class="caf"><label for="caf">COURSES <br> APPLIED FOR</label></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <!-- CAF SUB TABLE 2 -->
+                        <table width="300px" height="50px" align="center">
+                            <tr>
+                                <td class="caf">
+                                    <label for="caf">BCA</label><input type="radio" name="caf" value="BCA">
+                                    <label for="caf">B.A</label><input type="radio" name="caf" value="B.A">
+                                    <label for="caf">B.Sc</label><input type="radio" name="caf" value="B.Sc">
+                                    <label for="caf">B.Com</label><input type="radio" name="caf" value="B.Com">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <!-- SUBMIT -->
+            <table width="650px" height="40px">
+                <tr>
+                    <td colspan="2" class="submit">
+                        <input class="submitinput" type="submit" name="submit" value="Submit">
+                        &nbsp;&nbsp;<input class="submitinput" type="reset" name="submitt" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

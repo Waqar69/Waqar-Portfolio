@@ -1,0 +1,130 @@
+.logo {
+    /* background-color: blueviolet; */
+    width: 1350px;
+    height: 120px;
+}
+
+.heading {
+    /* background-color: blueviolet; */
+    width: 1350px;
+    height: 50px;
+    text-align: center;
+    color: darkblue;
+}
+
+.form {
+    width: 1350px;
+    height: 1200px;
+    background-color: blueviolet;
+}
+
+.table1 {
+    margin-left: 30px;
+}
+
+.firstname,
+.lastname,
+.dob,
+.email,
+.mn,
+.city,
+.pc,
+.state,
+.country,
+.hobbies,
+.course,
+.caf {
+    width: 200px;
+    color: white;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.qual {
+    width: 200px;
+    color: white;
+    vertical-align: top;
+    height: 50px;
+
+}
+
+.sno {
+    width: 100px;
+    color: white;
+    vertical-align: middle;
+    height: 30px;
+    text-align: center;
+}
+
+.sno1 {
+    width: 50px;
+    color: white;
+    vertical-align: middle;
+    height: 30px;
+    text-align: center;
+}
+
+.address {
+    width: 200px;
+    color: white;
+    vertical-align: top;
+    height: 50px;
+}
+
+.gender {
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+
+.firstnameinput,
+.lastnameinput,
+.dobinput,
+.emailinput,
+.mninput,
+.cityinput,
+.stateinput,
+.countryinput {
+    height: 25px;
+}
+
+.qualinput {
+    height: 25px;
+    text-align: center;
+}
+
+.submit {
+    text-align: right;
+}
+
+.submitinput {
+    height: 30px;
+    width: 100px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.pcinput {
+    height: 25px;
+    width: 240px;
+}
+
+.hobbiestd {
+    margin-top: 10px;
+}
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7 {
+    color: white;
+    font-size: 20px;
+}
+
+.span8 {
+    color: white;
+    font-size: 15px;
+}
